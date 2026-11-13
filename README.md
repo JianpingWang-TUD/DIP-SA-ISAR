@@ -1,5 +1,4 @@
-# DIP-SA-ISAR
-DIP-SA-ISAR: Training-Free Sparse-Aperture ISAR Imaging via Deep Image Prior
+# DIP-SA-ISAR: Training-Free Sparse-Aperture ISAR Imaging via Deep Image Prior
 
 This repository provides the code of the imaging algorithm proposed in our paper "DIP-SA-ISAR: Training-Free Sparse-Aperture ISAR Imaging via Deep Image Prior" published on IEEE Trans. Aerospace and Electronic Systems.
 
