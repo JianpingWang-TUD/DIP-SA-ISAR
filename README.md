@@ -85,7 +85,7 @@ python train_dip_pretrain.py --num_epoch 100 --outf logs_isarnet
 
 ## 方法说明
 
-回波按 \( \mathbf{S} = \mathbf{F}_r \mathbf{X} \mathbf{F}_a \) 生成。方位向按给定索引抽掉一部分脉冲，得到稀疏孔径观测，再加复高斯噪声。DIP 使用 `MediumUNet`，输入为稀疏孔径距离–多普勒图的实部与虚部，损失是回波拟合项加上幅度对数稀疏项和各向同性 TV。迭代中用方差早停（`utils/stopping_criterion.py`）观察是否过拟合。
+回波按 $\mathbf{S} = \mathbf{F}_r \mathbf{X} \mathbf{F}_a $ 生成。方位向按给定索引抽掉一部分脉冲，得到稀疏孔径观测，再加复高斯噪声。DIP 使用 `MediumUNet`，输入为稀疏孔径距离–多普勒图的实部与虚部，损失是回波拟合项加上幅度对数稀疏项和各向同性 TV。迭代中用方差早停（`utils/stopping_criterion.py`）观察是否过拟合。
 
 ## 已知问题
 
